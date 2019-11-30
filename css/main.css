@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.container {
+    margin: 200px auto;
+    background-color: white;
+    text-align: center;    
+    max-width: 500px;
+}
+h1 {
+    font-size:25px;
+    font-weight: bolder;
+    background-color: rgb(158,194,133);
+    color: white;
+    grid-column: 4 / 6;
+    border: 15px solid rgb(158,194,133);
+
+    
+}
+.input-btn{
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+}
+#add-skill{
+    color: rgb(158,194,133);
+    background-color: white;
+    border: 3px solid rgb(158,194,133);
+    height: 50px;
+    flex-grow: 1;
+    margin: 5px;
+}
+#input-bar{
+    flex-grow: 3;
+    border: 3px solid rgb(158,194,133);
+    height: 50px;
+    margin: 5px;
+
+}
+button{
+    font-size: 20px;
+    font-weight: bolder;
+}
+#delete {
+    background-color: rgb(210,110,106);
+    color: white;
+    position: absolute;
+    left: -2em;
+    font-size: 0.9em;
+    padding: 3px 6px;
+}
+li {
+    color: rgb(250, 155, 60);
+    list-style-type: none;
+    position: relative;
+    margin-left: 3em;
+    padding: 1em 1em 1em 1em;
+    font-size: 1.2em;
+}
