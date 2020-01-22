@@ -8,7 +8,7 @@ body {
 .container {
     margin: 200px auto;
     background-color: white;
-    text-align: center;    
+    text-align: center;
     max-width: 500px;
 }
 h1 {
@@ -19,7 +19,6 @@ h1 {
     grid-column: 4 / 6;
     border: 15px solid rgb(158,194,133);
 
-    
 }
 .input-btn{
     display: flex;
